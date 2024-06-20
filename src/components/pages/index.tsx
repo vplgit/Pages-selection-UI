@@ -48,7 +48,7 @@ const Pages = () => {
                 <div className="relative">
                   <input
                     type="checkbox"
-                    className={`form-checkbox h-5 w-5 hover:cursor-pointer opacity-20 hover:opacity-25 ${
+                    className={`form-checkbox h-5 w-5 hover:cursor-pointer hover:opacity-25 ${
                       isSelected ? 'opacity-100' : 'opacity-20'
                     }`}
                     onClick={setSelection}
@@ -73,7 +73,7 @@ const Pages = () => {
                   <div className="relative">
                     <input
                       type="checkbox"
-                      className={`form-checkbox h-5 w-5 hover:cursor-pointer opacity-20 hover:opacity-25 ${
+                      className={`form-checkbox h-5 w-5 hover:cursor-pointer hover:opacity-25 ${
                         isSelected ? 'opacity-100' : 'opacity-20'
                       }`}
                       onClick={setSelection}
